@@ -38,6 +38,7 @@
     <java.version>1.8</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
+    <overriden-oc-k8s-clients.version>1.4.34</overriden-oc-k8s-clients.version>
   </properties>
 
   <repositories>
@@ -166,6 +167,20 @@
           </plugin>
         </plugins>
       </build>
+      <dependencies>
+        <dependency>
+          <groupId>io.fabric8</groupId>
+          <artifactId>kubernetes-client</artifactId>
+          <version>${overriden-oc-k8s-clients.version}</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>io.fabric8</groupId>
+          <artifactId>openshift-client</artifactId>
+          <version>${overriden-oc-k8s-clients.version}</version>
+          <scope>test</scope>
+        </dependency>
+      </dependencies>
     </profile>
   </profiles>
 
