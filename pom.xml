@@ -26,14 +26,14 @@
 
   <groupId>me.snowdrop</groupId>
   <artifactId>spring-boot-booster-parent</artifactId>
-  <version>1.5.7-SNAPSHOT</version>
+  <version>1.5.8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Spring Boot Tomcat - Booster Parent</name>
   <description>Spring Boot Tomcat - Booster Parent</description>
 
   <properties>
-    <spring-boot.version>1.5.7</spring-boot.version>
+    <spring-boot.version>1.5.8</spring-boot.version>
     <snowdrop.qualifier>-SNAPSHOT</snowdrop.qualifier>
     <java.version>1.8</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
