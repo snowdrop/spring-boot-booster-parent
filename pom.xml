@@ -24,7 +24,7 @@
     <version>10</version>
   </parent>
 
-  <groupId>me.snowdrop</groupId>
+  <groupId>io.openshift.booster</groupId>
   <artifactId>spring-boot-booster-parent</artifactId>
   <version>1.5.8-SNAPSHOT</version>
   <packaging>pom</packaging>
