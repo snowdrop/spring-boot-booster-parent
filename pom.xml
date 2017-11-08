@@ -36,6 +36,8 @@
     <java.version>1.8</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
+
+    <arquillian.version>1.1.13.Final</arquillian.version>
     <junit.version>4.12</junit.version>
     <spring-boot-bom.version>1.5.8.Final</spring-boot-bom.version>
     <spring-boot-maven-plugin.version>1.5.8.RELEASE</spring-boot-maven-plugin.version>
@@ -51,11 +53,18 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- Spring Boot BOM File -->
       <dependency>
         <groupId>me.snowdrop</groupId>
         <artifactId>spring-boot-bom</artifactId>
         <version>${spring-boot-bom.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jboss.arquillian</groupId>
+        <artifactId>arquillian-bom</artifactId>
+        <version>${arquillian.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -89,13 +98,6 @@
       <resource>
         <directory>src/main/resources</directory>
         <filtering>true</filtering>
-        <includes>
-          <include>**/application*.yml</include>
-          <include>**/application*.yaml</include>
-          <include>**/application*.properties</include>
-          <include>**/boostrap.properties</include>
-          <include>**/fabric8/*.yml</include>
-        </includes>
       </resource>
     </resources>
 
@@ -103,14 +105,6 @@
       <testResource>
         <directory>src/test/resources</directory>
         <filtering>true</filtering>
-        <includes>
-          <include>**/application*.yml</include>
-          <include>**/application*.yaml</include>
-          <include>**/application*.properties</include>
-          <include>**/boostrap.properties</include>
-          <include>**/fabric8/*.yml</include>
-          <include>**/logback*.xml</include>
-        </includes>
       </testResource>
     </testResources>
 
