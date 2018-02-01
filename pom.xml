@@ -77,8 +77,8 @@
 
     <arquillian.version>1.2.1.Final</arquillian.version>
     <junit.version>4.12</junit.version>
-    <spring-boot-bom.version>1.5.8.Final</spring-boot-bom.version>
-    <spring-boot-maven-plugin.version>1.5.8.RELEASE</spring-boot-maven-plugin.version>
+    <spring-boot-bom.version>1.5.10-SNAPSHOT</spring-boot-bom.version>
+    <spring-boot-maven-plugin.version>1.5.10.RELEASE</spring-boot-maven-plugin.version>
   </properties>
 
   <repositories>
