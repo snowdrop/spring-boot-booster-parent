@@ -77,8 +77,8 @@
 
     <arquillian.version>1.1.13.Final</arquillian.version>
     <junit.version>4.12</junit.version>
-    <spring-boot-bom.version>1.5.8.Final</spring-boot-bom.version>
-    <spring-boot-maven-plugin.version>1.5.8.RELEASE</spring-boot-maven-plugin.version>
+    <spring-boot-bom.version>2.0.0.Alpha2</spring-boot-bom.version>
+    <spring-boot.version>2.0.0.RC1</spring-boot.version> <!-- must be kept in synch with BOM-defined version -->
   </properties>
 
   <repositories>
@@ -88,6 +88,17 @@
       <url>https://repository.jboss.org/nexus/content/groups/public</url>
     </repository>
   </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/libs-milestone</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 
   <dependencyManagement>
     <dependencies>
@@ -163,7 +174,7 @@
         <plugin>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
-          <version>${spring-boot-maven-plugin.version}</version>
+          <version>${spring-boot.version}</version>
           <configuration>
             <classifier>exec</classifier>
           </configuration>
