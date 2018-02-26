@@ -85,7 +85,6 @@
     <junit.version>4.12</junit.version>
     <spring-boot-bom.version>1.5.10.SP3</spring-boot-bom.version>
     <spring-boot.version>1.5.10.RELEASE</spring-boot.version>
-    <fabric8-maven-plugin.version>3.5.30</fabric8-maven-plugin.version>
   </properties>
 
   <repositories>
@@ -256,6 +255,9 @@
                   <goal>resource</goal>
                   <goal>build</goal>
                 </goals>
+                <configuration>
+                  <skipBuildPom>true</skipBuildPom>
+                </configuration>
               </execution>
             </executions>
           </plugin>
