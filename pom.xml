@@ -25,7 +25,7 @@
 
   <groupId>io.openshift.booster</groupId>
   <artifactId>spring-boot-booster-parent</artifactId>
-  <version>1.5.10-8-rhoar</version>
+  <version>1.5.10-9-rhoar-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Spring Boot Tomcat - Booster Parent</name>
@@ -154,7 +154,7 @@
     <url>https://github.com/snowdrop</url>
     <connection>scm:git:https://github.com/snowdrop/spring-boot-booster-parent.git</connection>
     <developerConnection>scm:git:git@github.com:snowdrop/spring-boot-booster-parent.git</developerConnection>
-    <tag>1.5.10-8-rhoar</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
