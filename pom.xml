@@ -20,7 +20,7 @@
   <parent>
     <groupId>io.openshift</groupId>
     <artifactId>booster-parent</artifactId>
-    <version>17</version>
+    <version>18</version>
   </parent>
 
   <groupId>io.openshift.booster</groupId>
@@ -255,9 +255,6 @@
                   <goal>resource</goal>
                   <goal>build</goal>
                 </goals>
-                <configuration>
-                  <skipBuildPom>true</skipBuildPom>
-                </configuration>
               </execution>
             </executions>
           </plugin>
