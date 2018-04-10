@@ -25,7 +25,7 @@
 
   <groupId>io.openshift.booster</groupId>
   <artifactId>spring-boot-booster-parent</artifactId>
-  <version>1.5.10-11-rhoar-SNAPSHOT</version>
+  <version>1.5.12-1-rhoar-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Spring Boot Tomcat - Booster Parent</name>
@@ -83,8 +83,8 @@
 
     <arquillian.version>1.4.0.Final</arquillian.version>
     <junit.version>4.12</junit.version>
-    <spring-boot-bom.version>1.5.10.SP3-redhat-14</spring-boot-bom.version>
-    <spring-boot.version>1.5.10.RELEASE</spring-boot.version>
+    <spring-boot-bom.version>1.5.12.Beta1-redhat-9</spring-boot-bom.version>
+    <spring-boot.version>1.5.12.RELEASE</spring-boot.version>
   </properties>
 
   <repositories>
