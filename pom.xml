@@ -25,13 +25,13 @@
 
   <groupId>io.openshift.booster</groupId>
   <artifactId>spring-boot-booster-parent</artifactId>
-  <version>1.5.12-4-rhoar-SNAPSHOT</version>
+  <version>1.5.13-1-rhoar-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Spring Boot Tomcat - Booster Parent</name>
   <description>Spring Boot Tomcat - Booster Parent</description>
   <url>http://snowdrop.me</url>
-  
+
   <issueManagement>
     <system>JIRA</system>
     <url>https://issues.jboss.org/projects/SB/summary</url>
@@ -83,8 +83,8 @@
 
     <arquillian.version>1.4.0.Final</arquillian.version>
     <junit.version>4.12</junit.version>
-    <spring-boot-bom.version>1.5.12.Final-redhat-1</spring-boot-bom.version>
-    <spring-boot.version>1.5.12.RELEASE</spring-boot.version>
+    <spring-boot-bom.version>1.5.13.Beta1-redhat-2</spring-boot-bom.version>
+    <spring-boot.version>1.5.13.RELEASE</spring-boot.version>
   </properties>
 
   <repositories>
