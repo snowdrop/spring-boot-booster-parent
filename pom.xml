@@ -83,7 +83,7 @@
 
     <arquillian.version>1.4.0.Final</arquillian.version>
     <junit.version>4.12</junit.version>
-    <spring-boot-bom.version>1.5.13.Beta1-redhat-2</spring-boot-bom.version>
+    <spring-boot-bom.version>1.5.13.Final-redhat-3</spring-boot-bom.version>
     <spring-boot.version>1.5.13.RELEASE</spring-boot.version>
   </properties>
 
